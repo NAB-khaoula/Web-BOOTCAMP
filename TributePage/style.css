@@ -3,12 +3,16 @@
     background-color: rgb(238,238,238);
     margin: 30px 20px;
     padding: 30px 20px;
+    max-width: 999px;
+    margin:auto;
     border-radius: 0.6%;
     font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
 }
 
 .introduction{
     display: flex;
+    max-width: 999px;
+    margin: auto;
     flex-direction: column;
     align-items: center;
 }
@@ -24,19 +28,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     background-color: white;
+}
+
+.captionedImage img{
+    max-width: 70%;
+    margin:auto;
 }
 
 .biography{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 900px;
+    margin: auto;
 }
 
 .biography ul{
-    /* text-align: justify; */
-    /* padding: 0px 20%; */
-    max-width: 900px;
+    text-align: justify;
+    padding: 0px 20%;
     line-height: 30px;
 }
 .biography li{
