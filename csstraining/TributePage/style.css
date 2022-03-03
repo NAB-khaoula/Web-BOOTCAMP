@@ -1,0 +1,49 @@
+
+.mainComponant{
+    background-color: rgb(238,238,238);
+    margin: 30px 20px;
+    padding: 30px 20px;
+    border-radius: 0.6%;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.introduction h1{
+    font-size: xx-large;
+    color: rgb(51,51,51);
+}
+
+.captionedImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.biography{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.biography ul{
+    /* text-align: justify; */
+    /* padding: 0px 20%; */
+    max-width: 900px;
+    line-height: 30px;
+}
+.biography li{
+    padding: 5px 0;
+}
+
+.quote{
+    font-style: italic;
+    padding: 0px 20%;
+}
