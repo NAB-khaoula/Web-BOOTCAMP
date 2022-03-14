@@ -1,0 +1,146 @@
+body{
+	font-family: system-ui, sans-serif;
+}
+
+.backgroundContainer{
+	position: relative;
+    height: 700px;
+	background-color: #F2F3F5;
+}
+
+.Title{
+	padding-top:60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 20px;
+	background-color: #F2F3F5;
+	padding-bottom: 60px;
+}
+
+.backgroundContainerTitle{
+	max-width: 70%;
+	margin:auto;
+	text-align: center;
+	font-size: 30px;
+	color: #111826;
+}
+
+.backgroundContainerIntro{
+	max-width: 90%;
+	margin:auto;
+	text-align: center;
+	color: #7B7E87;
+}
+
+.card{
+	position: relative;
+	max-width: 999px;
+	margin: auto;
+	width: 95%;
+	background-color: white;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	border-radius: 10px;
+}
+
+.infoBox{
+	display: flex;
+	flex-direction: column;
+	max-width: 90%;
+	margin: auto;
+}
+
+.infoBox h1{
+	color: #111826;
+}
+.infoBox p{
+	color: #7B7E87;
+}
+
+.offerInfoBox{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.offerInfoBox h4{
+	padding-left: 5%;
+	color: #635FE5;
+}
+
+.offerInfoBox ul{
+	padding-left: 7%;
+	list-style: none;
+	line-height: 2;
+}
+
+.offerInfoBox i {
+	padding-right: 10px;
+}
+
+
+.PricingBox{
+	background-color: #F9F9FA;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px 0px;
+	row-gap: -10px;
+	border-radius: 2%;
+}
+
+.offer{
+	color: #111826;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.price{
+	font-weight: 700;
+	font-size: 50px;
+}
+.price span{
+	font-weight: 500;
+	color: #7B7E87;
+	font-size: 20px;
+}
+
+.PricingBox a{
+	color: #7B7E87;
+	text-decoration-color: #7B7E87;
+}
+
+.PricingBox button{
+	background-color: #1F2836;
+	color: white;
+	width: 300px;
+	max-width: 100%;
+	margin: auto;
+	height: 50px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.freeSample{
+	text-decoration: none;
+	color: #111726;
+}
+
+.freeSample span{
+	color: #7B7E87;
+}
+
+@media only screen and (min-width: 600px) {
+	.card{
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 30px;
+	}
+	.infoBox .offerInfoBox{
+		display: flex;
+		flex-direction: column;
+	}
+  }

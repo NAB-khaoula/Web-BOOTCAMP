@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+}
+.mainComponant{
+    width: 100%;
+    height: 100%;
+    max-width: 999px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxSection{
+    display: flex;
+    flex-direction: column;
+}
